@@ -1,0 +1,7 @@
+user=_app seinfo=platform name=com.mediatek.mtklogger.proxy domain=vendor_app type=app_data_file levelFrom=user
+user=log domain=log_app type=log_app_data_file
+user=smartcard domain=platform_app type=smartcard_data_file
+user=mot_common seinfo=common domain=platform_app type=app_data_file
+user=mot_shared seinfo=platform domain=platform_app type=app_data_file
+user=_app seinfo=common domain=platform_app type=app_data_file levelFrom=user
+user=_app seinfo=common domain=untrusted_app name=com.motorola.MotGallery2 type=app_data_file levelFrom=user

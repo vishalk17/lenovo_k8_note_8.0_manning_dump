@@ -1,0 +1,13 @@
+# manning_retail-user 8.0.0 OMB27.43-20 20 release-keys
+- manufacturer: lenovo
+- platform: mt6797
+- codename: manning
+- flavor: manning_retail-user
+- release: 8.0.0
+- id: OMB27.43-20
+- incremental: 20
+- tags: release-keys
+- fingerprint: lenovo/manning_retail/manning:8.0.0/OMB27.43-20/20:user/release-keys
+- brand: lenovo
+- branch: manning_retail-user-8.0.0-OMB27.43-20-20-release-keys
+- repo: lenovo_manning_dump
