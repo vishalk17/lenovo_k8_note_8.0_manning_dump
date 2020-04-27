@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+#	Via scripts
+#	file create by liunianliang 2018-03-14 for countrycode
+#
+#	please DO NOT modify !
+-->
+<channel>
+    <app
+        package="com.motorola.easyprefix" >
+    </app>
+</channel>

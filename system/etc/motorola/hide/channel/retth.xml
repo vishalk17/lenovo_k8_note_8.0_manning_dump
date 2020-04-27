@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+#	Via scripts
+#	file create by liunianliang 2018-03-14 for countrycode
+#
+#	please DO NOT modify !
+-->
+<channel>
+   <app
+        package="Exceloem-release.apk" >
+    </app>
+    <app
+        package="PowerPointoem-release.apk" >
+    </app>
+    <app
+        package="Wordoem-release.apk" >
+    </app>
+    <app
+        package="ModernOneNoteOEMstub-release.apk" >
+    </app>
+    <app
+        package="OutlookOEM.apk" >
+    </app>
+    <app
+        package="MSSkype_stub.apk" >
+    </app>
+    <app
+        package="trueid_true_phone_release.apk" >
+    </app>
+</channel>

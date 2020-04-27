@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+#	Via scripts
+#	file create by liunianliang 2018-03-14 for countrycode
+#
+#	please DO NOT modify !
+-->
+<channel>
+    <app
+        package="com.google.android.calculator" >
+        <shortcut
+            x="0"
+            y="3"
+            screen="0" />
+    </app>
+    <app
+        package="com.motorola.brapps" >
+        <component
+            class="com.motorola.brapps.ui.EntelPeActivityImpl"
+            enabled="true">
+        </component>
+        <component
+            class="com.motorola.brapps.ui.EntelPeActivity"
+            enabled="true">
+            <shortcut
+                x="3"
+                y="3"
+                screen="0" />
+        </component>
+    </app>
+</channel>

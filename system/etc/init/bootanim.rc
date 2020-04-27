@@ -1,0 +1,27 @@
+service bootanim /system/bin/bootanimation
+    class core animation
+    user graphics
+    group graphics audio
+    disabled
+    oneshot
+    writepid /dev/stune/top-app/tasks
+
+# MTK add
+service banim_shutmp3 /system/bin/bootanimation shut mp3
+    class core animation
+    user graphics
+    group graphics audio
+    disabled
+    oneshot
+    writepid /dev/stune/top-app/tasks
+
+service banim_shutnomp3 /system/bin/bootanimation shut nomp3
+    class core animation
+    user graphics
+    group graphics audio
+    disabled
+    oneshot
+    writepid /dev/stune/top-app/tasks
+
+on property:service.bootanim.exit=0 && property:init.svc.bootanim=stopped
+    start bootanim
